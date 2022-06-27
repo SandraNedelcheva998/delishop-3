@@ -10,7 +10,7 @@
             <h1>{{$product->ProductName}}</h1>
             <div class="row row-col-2">
                 <div class="col">
-                    <img style="border: 1px solid lightgrey;" src={{$product->ProductImageURL}} />
+                    <img style="border: 1px solid lightgrey;" width="683px" height="1024px" src={{$product->ProductImageURL}} />
                 </div>
                 <div class="col">
                     <h3 class="mt-0">Description</h3>

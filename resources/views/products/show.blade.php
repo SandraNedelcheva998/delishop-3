@@ -105,6 +105,7 @@
 
 
             <!-- Button trigger modal -->
+            @if(Auth::check())
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                 Add Comment
             </button>
@@ -139,6 +140,9 @@
                     </div>
                 </div>
             </div>
+            @else
+                <h4 class="text-left text-muted">Only registered users can comment</h4>
+            @endif
             <br />
             <br />
 
